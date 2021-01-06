@@ -1,8 +1,5 @@
 <template>
-  <img
-    alt="logo"
-    src="https://arweave.net/lIXEwj6WL4V1ZR_hJjlhsziZp4IVnJQS52rpD0xOvJ4"
-  />
+  <img alt="logo" src="./assets/logo.png" />
   <form v-on:submit.prevent="search">
     <input
       name="transaction_id"
